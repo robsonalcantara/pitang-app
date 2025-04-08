@@ -1,0 +1,11 @@
+.auth-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+ }
+
+.logout-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+ }
