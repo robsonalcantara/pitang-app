@@ -1,0 +1,39 @@
+.user-cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+    overflow-x: auto;
+  }
+  
+  .user-card {
+    background-color: #93a3bb;
+    border-radius: 8px;
+    padding: 12px;
+    width: 120px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-card h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .car-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 4px 0;
+    padding: 6px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .car-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+  }

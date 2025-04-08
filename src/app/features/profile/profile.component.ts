@@ -1,4 +1,4 @@
-import { Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {User} from '../../models/user.model';
 import {CommonModule, DatePipe} from '@angular/common';
 import {AvatarModule} from 'primeng/avatar';

@@ -19,6 +19,22 @@ p-floatlabel {
   margin: 10rem 40%;
 }
 
+button[p-button]{
+  background-color:  #cf6610;
+  color: white; 
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: all 0.3s ease-in-out;
+    
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
