@@ -121,6 +121,13 @@ export class UserFormComponent {
       next: () => {
         this.limpaFormularios()
         this.updateUserList.emit()
+		let severity = 'success';
+        this.messageService.add({
+          
+          severity,
+          summary: 'Sucesso',
+          detail: "User registered successfully!!"
+        });
       },
       error: (error) => {
         this.messageService.add({severity: 'error', summary: error.error.errorCode, detail: error.error.message})
